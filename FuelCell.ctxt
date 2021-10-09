@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FuelCell
+comment0.text=\r\n\ The\ fuelcell\ travels\ toward\ the\ space\ station\ when\ launched.\r\n\ It\ travels\ horizontally\ on\ a\ line\ extending\ from\ the\ apex\ of\ the\ shuttle.\r\n\ \r\n\ @author\ Thu\ Le\ &\ Jiamu\ Chen\ \r\n\ @version\ Oct\ 2020\r\n
+comment1.params=theCanvas\ theSpaceStation
+comment1.target=FuelCell(Canvas,\ SpaceStation)
+comment1.text=\r\n\ The\ constructor\ creates\ a\ fuel\ cell\ that\ can\ reference\ the\ space\ station\ and\r\n\ the\ shuttle.\ It\ needs\ to\ know\ about\ these\ objects\ so\ it\ can\ coordinate\ docking\r\n\ operations\ for\ itself\ and\ for\ the\ shuttle.\r\n\ \r\n\ @param\ theCanvas\ the\ canvas\ to\ use\ for\ all\ graphics\r\n\ @param\ theSpaceStation\ the\ spaceStation\ --\ created\ by\ the\ Controller\ in\ this\ application\r\n
+comment2.params=xPosition\ yPosition
+comment2.target=void\ launch(int,\ int)
+comment2.text=\r\n\ launch\ sets\ initial\ conditions\ for\ the\ launch.\r\n
+comment3.params=
+comment3.target=void\ moveSmallDistance()
+comment3.text=\r\n\ moveSmallDistance\ repeated\ calls\ to\ moveSmallDistance\ will\ move\ the\ fuel\ cell\ closer\ to\ its\ destination.\r\n\ Repeated\ calls\ to\ moveSmallDistance\ will\ eventually\ get\ the\ fuel\ cell\ close\ to\ the\ space\ station\ or\r\n\ off\ the\ right\ side\ of\ the\ canvas\ in\ case\ it\ missed\ the\ space\ station\ by\ to\ large\ of\ a\ distance.\r\n
+comment4.params=
+comment4.target=java.lang.String\ status()
+comment4.text=\r\n\ status()\ returns\ the\ status\ of\ the\ cell\r\n\ @return\ status\ "refueled",\ "missed",\ or\ "moving"\r\n
+numComments=5

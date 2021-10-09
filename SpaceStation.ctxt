@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SpaceStation
+comment0.text=\r\n\ The\ space\ station\ moves\ diagonally\ from\ upper-left\ to\ lower\ right\ on\ the\r\n\ canvas.\ It\ is\ green\ on\ the\ first\ orbit\ (the\ first\ time\ it\ moves\ on\ the\ diagonal),\ \r\n\ yellow\ on\ the\ second\ orbit,\ and\ red\ thereafter,\ until\ a\ new\ refueling\ operation\r\n\ begins.\r\n\ \r\n\ @author\ Thu\ Le\ &\ Jiamu\ Chen\r\n\ @version\ October\ 2020\r\n
+comment1.params=simCanvas
+comment1.target=SpaceStation(Canvas)
+comment1.text=\r\n\ Creates\ a\ space\ shuttle\ as\ a\ Diamond\ object\ at\ a\ random\ position\ at\ the\ top\ of\r\n\ the\ simulation\ window.\ Once\ the\ space\ station\ is\ initialized,\ it\ should\ begin\r\n\ to\ orbit.\r\n\ \r\n\ @param\ canvas\ --\ the\ canvas\ on\ which\ to\ render\ the\ space\ station\r\n
+comment2.params=
+comment2.target=void\ moveSmallDistance()
+comment2.text=\ \ \ \ \ \ \r\n\ Handle\ orbiting\ details\:\r\n\ (1)\ move\ the\ space\ station,\ if\ it\ is\ within\ canvas\ boundaries\r\n\ (2)\ begin\ another\ orbit\ at\ a\ lower\ starting\ point,\ if\ space\ station\ reaches\ the\ \r\n\ right\ side\ of\ the\ canvas.\ Do\ this\ by\ computing\ new\ initXPosition\ and\ initYPosition\r\n\ and\ then\ by\ moving\ there\r\n\ (2a)\ update\ orbitCount\r\n\ (2b)\ if\ space\ station\ completed\ 1\ orbit,\ change\ its\ color\ to\ "yellow"\r\n\ (2c)\ if\ space\ station\ completed\ 2\ orbits,\ change\ its\ color\ to\ "red"\r\n\ \r\n\r\n
+comment3.params=
+comment3.target=void\ reFuel()
+comment3.text=\r\n\ To\ Do\:\ reFuel\ the\ refueling\ process.\ The\ fuel\ cell\ has\ docked,\ so\:\r\n\ (1)\ change\ color\ back\ to\ "green"\r\n\ (2)\ wait\ 3\ seconds\r\n
+comment4.params=newSpeed
+comment4.target=void\ setSpeed(char)
+comment4.text=\r\n\ setSpeed\ set\ the\ orbiting\ speed\ according\ to\ 'B',\ 'I',\ or\ 'A'.\r\n\ \ \ \ You\ can\ experiment\ with\ xDistance\ and\ yDistance\ for\ this.\r\n\ \ \ \ To\ Do\:\ Write\ the\ body\ of\ the\ method\r\n
+comment5.params=
+comment5.target=int\ getXPosition()
+comment5.text=\r\n\ getXposition\ a\ simple\ acccessor\ used\ for\ the\ docking\ proceses\r\n\ \r\n\ @return\ xPosition\ the\ current\ x-coordinate\ of\ the\ space\ station\r\n\ To\ Do\:\ Write\ the\ body\ of\ this\ method\r\n
+comment6.params=
+comment6.target=int\ getYPosition()
+comment6.text=\r\n\ getYposition\ a\ simple\ acccessor\ used\ for\ the\ docking\ proceses\r\n\ \r\n\ @return\ yPosition\ the\ current\ y-coordinate\ of\ the\ space\ station\r\n\ \ *\ To\ Do\:\ Write\ the\ body\ of\ this\ method\r\n
+numComments=7

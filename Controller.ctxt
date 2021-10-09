@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Controller
+comment0.text=\r\n\ This\ class\ plays\ the\ role\ of\ controller\ of\ the\ simulation.\r\n\ It\ creates\ the\ shuttle\ and\ space\ station\ objects\ as\ well\ as\r\n\ the\ supporting\ canvas\ and\ label\ objects.\r\n\ \r\n\ @author\ Thu\ Le\ &\ Jiamu\ Chen\r\n\ @version\ October\ 2020\r\n
+comment1.params=
+comment1.target=Controller()
+comment1.text=\r\n\ Class\ constructor.\ Doesn't\ do\ much.\r\n
+comment2.params=
+comment2.target=void\ simulate()
+comment2.text=\r\n\ startSimulation\ creates\ the\ simulation\ environment\ and\ runs\ the\ simulation\r\n\ using\ an\ indefinite\ while\ loop\ that\ looks\ at\ the\ state\ of\ the\ simulation\r\n\ and\ acts\ accordingly\ each\ time\ through\ the\ loop.\r\n
+comment3.params=ke
+comment3.target=void\ keyTyped(java.awt.event.KeyEvent)
+comment4.params=ke
+comment4.target=void\ keyReleased(java.awt.event.KeyEvent)
+comment4.text=\r\n\ Ignore\ methods\ below\ this\ point\r\n
+comment5.params=ke
+comment5.target=void\ keyPressed(java.awt.event.KeyEvent)
+numComments=6

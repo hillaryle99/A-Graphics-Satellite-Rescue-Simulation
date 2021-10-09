@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Shuttle
+comment0.text=\r\n\ The\ shuttle\ hovers\ on\ the\ left\ edge\ of\ the\ canvas.\ It\ can\ be\ moved\ up\ or\ down\ by\ pressing\r\n\ the\ 'K'\ or\ 'J'\ key\ accordingly.\ The\ shuttle\ has\ 5\ fuelcells,\ which\ can\ be\ launched\ one\ at\r\n\ a\ time\ using\ the\ space\ bar.\ After\ launching\ all\ 5\ fuelcells\ a\ refueling\ cannot\ occur.\r\n\ \r\n\ @author\ Thu\ Le\ &\ Jiamu\ Chen\r\n\ @version\ October\ 2020\r\n
+comment1.params=theCanvas\ theSpaceStation
+comment1.target=Shuttle(Canvas,\ SpaceStation)
+comment1.text=\r\n\ Constructor\ create\ a\ Shuttle\ object\:\r\n\ \ \ \ Uses\ canvas\ when\ creating\ the\ shuttle\ object\r\n\ \ \ \ The\ shuttle\ object\ needs\ a\ color,\ an\ initial\ position,\r\n\ \ \ \ an\ initial\ direction\ of\ motion,\ and\ 5\ fuel\ cells\r\n\ \ \ \ \r\n\ @param\ canvas\ the\ canvas\ on\ which\ to\ render\ the\ shuttle\r\n
+comment2.params=theDirection
+comment2.target=void\ setDirection(java.lang.String)
+comment2.text=\r\n\ To\ Do\:\ Complete\ setDirection\ a\ simple\ mutator\r\n\ \ \ \ \r\n\ @param\ theDirection\ "up"\ or\ "down".\r\n
+comment3.params=
+comment3.target=void\ moveSmallDistance()
+comment3.text=\r\n\ moveShuttle\ move\ the\ shuttle\ 10\ pixels\ up\ or\ down\r\n\ \ \ \ in\ the\ direction\ specified\ by\ the\ direction\ instance\ field\r\n
+comment4.params=
+comment4.target=FuelCell\ launchCell()
+comment4.text=\r\n\ launchCell\ if\ there\ are\ more\ cells,\ create\ a\ new\ fuelCell\ and\ launch\ it\r\n\ from\ the\ vertex\ of\ the\ shuttle.\ One\ is\ deducted\ from\ the\ number\ of\ available\r\n\ cells.\r\n\ \r\n\ @return\ cell\ a\ launched\ FuelCell\ object\ or\ null\ if\ the\ shuttle\ is\ out\ of\ cells\r\n
+comment5.params=
+comment5.target=void\ dock()
+comment5.text=\r\n\ dock\ 1)\ move\ the\ shuttle\ toward\ the\ space\ station\ and\ dock.\r\n\ \ \ \ \ \ 2)\ Wait\ three\ seconds.\r\n\ \ \ \ \ \ 3)\ move\ the\ shuttle\ horiaontally\r\n\ \ \ \ \ \ \ \ \ \ \ \ back\ to\ the\ left\ side\ of\ the\ window.\r\n\ \ \ \ \ \ Pattern\ the\ docking\ operation\ after\ the\ similar\ operation\r\n\ \ \ \ \ \ in\ the\ FuelCell\ class.\r\n
+comment6.params=
+comment6.target=int\ getNumberFuelCells()
+comment6.text=\r\n\ getNumberFuelCells\ a\ simple\ accessor\r\n\ To\ do\:\ rewrite\ the\ body\ of\ this\ method\r\n\ @return\ the\ number\ of\ fuel\ cells\ remaining\r\n
+numComments=7
